@@ -85,13 +85,13 @@ def load_dataset():
     )
 
 
-(
-X_train,
-y_train,
-X_test,
-y_test
+(X_train,y_train,X_test,y_test)=load_dataset()
 
-)=load_dataset()
+X_train = X_train[:10000]
+y_train = y_train[:10000]
+
+X_test = X_test[:2000]
+y_test = y_test[:2000]
 
 # ------------------------------------------------
 # SIDEBAR
