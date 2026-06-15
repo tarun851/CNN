@@ -1,8 +1,4 @@
 streamlit
-tensorflow
-numpy
+numpy<2
 matplotlib
-pandas
 scikit-learn
-pillow
-seaborn
